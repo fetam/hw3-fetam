@@ -2,7 +2,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws SQLException {
-        
+      //  
         Menu m = new Menu();
         Customer cu = new Customer();
         Inventory iv = new Inventory();

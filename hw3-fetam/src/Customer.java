@@ -10,7 +10,7 @@ public class Customer {
     
     Customer() {
     }
-    
+   // 
     int findUser(String id, String pass) throws SQLException {
         String sqlstr;
         Connection conn = DriverManager.getConnection("jdbc:mysql://35.192.32.238:3306/?user=root", "root","Njjmfetc12");

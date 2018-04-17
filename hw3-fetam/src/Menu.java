@@ -1,5 +1,5 @@
 public class Menu {
-    
+    //
     public void welcome() {
         System.out.println("Welcome to Carmax!\n");
         System.out.println("1.Log in");

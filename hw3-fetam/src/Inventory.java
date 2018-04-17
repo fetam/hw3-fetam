@@ -11,7 +11,7 @@ public class Inventory {
     Inventory() {
         
     }
-    
+    //
     void displayCars() throws SQLException {
         Connection conn = DriverManager.getConnection("jdbc:mysql://35.192.32.238:3306/?user=root", "root","Njjmfetc12");
         Statement st = conn.createStatement();
